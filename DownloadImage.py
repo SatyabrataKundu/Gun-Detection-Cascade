@@ -67,7 +67,6 @@ def create_pos_n_neg():
                 with open("info.dat", "a") as f:
                     f.write(line)
 
-
-create_pos_n_neg()
-# find_uglies()
-#store_raw_images()
+store_raw_images()
+#find_uglies()
+#create_pos_n_neg()
